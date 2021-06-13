@@ -21,9 +21,9 @@ After a successful follow through of a small amount of steps, questions and proc
 
 ## Usage
 
-1. Open terminal 
+1. Open terminal
 
-2. cd into the develop folder
+2. Now, in the read-me-generator "cd" into the develop folder
 
 3. Run & Test by typing "node index.js" 
 
