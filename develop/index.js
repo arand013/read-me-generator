@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 let inquirer = require('inquirer');
 let fs = require('fs');
-// TODO: Create an array of questions for user input
 
+// TODO: Create an array of questions for user input
 inquirer
     .prompt([
         {
@@ -91,7 +91,7 @@ function createREADMEFile(input) {
     const questionsHead = "## Questions";
     let completeREADME = [];
 
-    // Adding Title
+    // Adds Title
     if (input.title == '') {
         readmeTitle = '# TITLE';
     } else {
@@ -100,12 +100,12 @@ function createREADMEFile(input) {
     completeREADME.push(readmeTitle);
 
 
-    //Add in license badge here!!
+    //Adds in license badge here!!
     let badge = `![](https://img.shields.io/badge/license-${readmeLicence.replace(/ /g, "%20")}-blue?style=flat-square)`;
     completeREADME.push(badge);
 
 
-    // Adding description
+    // Adds description
     if (input.description == '') {
         readmeDescription = `${descriptionHead}\n Enter project description here.`;
     } else {
@@ -114,7 +114,7 @@ function createREADMEFile(input) {
     completeREADME.push(readmeDescription);
 
 
-    //Adding Table of Contents
+    //Adds Table of Contents
     tableOfContents = `${tocHead}\n* [Installation](#installation)\n* [Usage](#usage)\n* [Contribution](#contribution)\n* [Tests](#tests)\n* [License](#license)\n* [Questions](#questions)\n`;
     completeREADME.push(tableOfContents);
 
@@ -131,7 +131,7 @@ function createREADMEFile(input) {
     }
 
 
-    //Adding Usage
+    //Adds Usage
     if (input.usage == '') {
         readmeUsage = `\n${usageHead}\n Enter project usage here.`;
     } else {
@@ -140,7 +140,7 @@ function createREADMEFile(input) {
     completeREADME.push(readmeUsage);
 
 
-    //Adding Contributing
+    //Adds Contributing
     if (input.contribution == '') {
         readmeContribution = `\n${contributionHead}\n Enter project contriburtion information here.`;
     } else {
@@ -149,7 +149,7 @@ function createREADMEFile(input) {
     completeREADME.push(readmeContribution);
 
 
-    //Adding Tests
+    //Adds Tests
     if (input.testing == '') {
         readmeTest = `\n${testingHead}\n Enter project testing information here.`;
     } else {
