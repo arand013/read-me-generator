@@ -163,4 +163,8 @@ function createREADMEFile(input) {
     completeREADME.push(readmeLicence);
 
 
-   
+    //Questions section with github link
+    readmeQuestions = `\n${questionsHead}\nFor questions about this project, please see my GitHub at [${input.github}](https://github.com/${input.github}), or reach out by email at ${input.email}.`;
+    completeREADME.push(readmeQuestions);
+
+
