@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
 ## Description
 This is a back-end node index.js file that is designed to generate Professional a Read-Me.md file.
-After a succeful follow through of a small amount of steps and infromations are answered and responded to. 
+After a successful follow through of a small amount of steps, questions and processes are responded to. 
 
 
 ## Table of Contents
@@ -23,11 +23,13 @@ After a succeful follow through of a small amount of steps and infromations are 
 
 1. Open terminal 
 
-2. Run & Test by typing in the develop folder "node index.js" 
+2. cd into the develop folder
 
-3. Answer the prompts that follow
+3. Run & Test by typing "node index.js" 
 
-4. On success a README.md will be generated.
+4. Answer the prompts that follow
+
+5. On success a README.md will be generated.
 
 ## Contribution
 node index.js 
