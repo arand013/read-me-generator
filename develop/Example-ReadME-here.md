@@ -1,7 +1,7 @@
-# GET MONEEYY W/WEB
-![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
+# LOPS
+![](https://img.shields.io/badge/license-Code%20Project%20Open%20License%20(CPOL)-blue?style=flat-square)
 ## Description
-This is a GamePLAN 2 B ULTRA SUCCCEFUL!!!
+HERE LAYS THE DESCRIPTION
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,22 +11,24 @@ This is a GamePLAN 2 B ULTRA SUCCCEFUL!!!
 * [Questions](#questions)
 
 ## Installation
-1. LIVE
-2. FOCUS
-3. STAY IN PRESENT
-4. 
+1. FIRST
+2. SECOND
+3. THIRD
+4. THEN
+5. AFTER
+6. FINALLLLY
 
 ## Usage
-Run this by typing "node index.js" 
+JAVASCRIPT, HTML
 
 ## Contribution
-Enter project contribution information here.
+HERE LAYS THE CONTRIBUTION INFORMATION
 
 ## Tests
-Enter project testing information here.
+HERE LAYS THE TESTING INFORMATION
 
 ## License
-This project is covered under the MIT License.
+This project is covered under the Code Project Open License (CPOL).
 
 ## Questions
 For questions about this project, please see my GitHub at [arand013](https://github.com/arand013), or reach out by email at alexanderaranda@ymail.com.

@@ -40,5 +40,5 @@ Enter project testing information here.
 ## Questions
 For questions about this project, please see <br>
 My GitHub at: [arand013](https://github.com/arand013) <br>
-<br>
+or<br>
 Reach out by email at: alexanderaranda@ymail.com

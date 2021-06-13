@@ -63,7 +63,7 @@ inquirer
     ])
     .then((res) => {
         console.log("Creating README file...");
-        createREADMEFile(res);
+        GenerateReadMe(res);
 
     })
     .catch((err) => {
@@ -71,105 +71,105 @@ inquirer
     })
 
 // TODO: Create a function to write README file   
-function createREADMEFile(input) {
-    let readmeTitle;
-    let readmeDescription;
+function GenerateReadMe(input) {
+    let Title;
+    let Description;
     const descriptionHead = "## Description";
     let tableOfContents;
     const tocHead = "## Table of Contents";
     let installArr;
     const installHead = "## Installation";
-    let readmeUsage;
+    let Usage;
     const usageHead = "## Usage";
-    let readmeContribution;
+    let Contribution;
     const contributionHead = "## Contribution";
-    let readmeTest;
+    let Test;
     const testingHead = "## Tests";
-    let readmeLicence = input.license;
+    let License = input.license;
     const licenseHead = "## License";
-    let readmeQuestions;
+    let Questions;
     const questionsHead = "## Questions";
-    let completeREADME = [];
+    let fullReadME = [];
 
     // Adds Title
     if (input.title == '') {
-        readmeTitle = '# TITLE';
+        Title = '# TITLE';
     } else {
-        readmeTitle = `# ${input.title}`;
+        Title = `# ${input.title}`;
     }
-    completeREADME.push(readmeTitle);
+    fullReadME.push(Title);
 
 
     //Adds in license badge here!!
-    let badge = `![](https://img.shields.io/badge/license-${readmeLicence.replace(/ /g, "%20")}-blue?style=flat-square)`;
-    completeREADME.push(badge);
+    let badge = `![](https://img.shields.io/badge/license-${License.replace(/ /g, "%20")}-blue?style=flat-square)`;
+    fullReadME.push(badge);
 
 
     // Adds description
     if (input.description == '') {
-        readmeDescription = `${descriptionHead}\n Enter project description here.`;
+        Description = `${descriptionHead}\n Enter project description here.`;
     } else {
-        readmeDescription = `${descriptionHead}\n${input.description}`;
+        Description = `${descriptionHead}\n${input.description}`;
     }
-    completeREADME.push(readmeDescription);
+    fullReadME.push(Description);
 
 
     //Adds Table of Contents
     tableOfContents = `${tocHead}\n* [Installation](#installation)\n* [Usage](#usage)\n* [Contribution](#contribution)\n* [Tests](#tests)\n* [License](#license)\n* [Questions](#questions)\n`;
-    completeREADME.push(tableOfContents);
+    fullReadME.push(tableOfContents);
 
 
     // TODO: Create a function to initialize app
-    completeREADME.push(`${installHead}`);
+    fullReadME.push(`${installHead}`);
 
     installArr = input.install.split(',').map(item => {
         return `${item.trim()}`;
     });
 
     for (var i = 0; i < installArr.length; i++) {
-        completeREADME.push(`${i + 1}. ${installArr[i]}`);
+        fullReadME.push(`${i + 1}. ${installArr[i]}`);
     }
 
 
     //Adds Usage
     if (input.usage == '') {
-        readmeUsage = `\n${usageHead}\n Enter project usage here.`;
+        Usage = `\n${usageHead}\n Enter project usage here.`;
     } else {
-        readmeUsage = `\n${usageHead}\n${input.usage}`;
+        Usage = `\n${usageHead}\n${input.usage}`;
     }
-    completeREADME.push(readmeUsage);
+    fullReadME.push(Usage);
 
 
     //Adds Contributing
     if (input.contribution == '') {
-        readmeContribution = `\n${contributionHead}\n Enter project contriburtion information here.`;
+        Contribution = `\n${contributionHead}\n Enter project contriburtion information here.`;
     } else {
-        readmeContribution = `\n${contributionHead}\n${input.contribution}`;
+        Contribution = `\n${contributionHead}\n${input.contribution}`;
     }
-    completeREADME.push(readmeContribution);
+    fullReadME.push(Contribution);
 
 
     //Adds Tests
     if (input.testing == '') {
-        readmeTest = `\n${testingHead}\n Enter project testing information here.`;
+        Test = `\n${testingHead}\n Enter project testing information here.`;
     } else {
-        readmeTest = `\n${testingHead}\n${input.testing}`;
+        Test = `\n${testingHead}\n${input.testing}`;
     }
-    completeREADME.push(readmeTest);
+    fullReadME.push(Test);
 
 
     //License info
-    readmeLicence = `\n${licenseHead}\nThis project is covered under the ${input.license}.`;
-    completeREADME.push(readmeLicence);
+    License = `\n${licenseHead}\nThis project is covered under the ${input.license}.`;
+    fullReadME.push(License);
 
 
     //Questions section with github link
-    readmeQuestions = `\n${questionsHead}\nFor questions about this project, please see my GitHub at [${input.github}](https://github.com/${input.github}), or reach out by email at ${input.email}.`;
-    completeREADME.push(readmeQuestions);
+    Questions = `\n${questionsHead}\nFor questions about this project, please see my GitHub at [${input.github}](https://github.com/${input.github}), or reach out by email at ${input.email}.`;
+    fullReadME.push(Questions);
 
 
     // Function call to initialize app
-    const README = completeREADME.join('\n');
+    const README = fullReadME.join('\n');
 
 
     // TODO: Create a function to generate markdown for README
@@ -177,7 +177,7 @@ function createREADMEFile(input) {
         if (err) {
             throw err;
         } else {
-            console.log("README file successfully created!");
+            console.log("README file successfully generated!");``
         }
     });
 };
