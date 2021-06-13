@@ -38,6 +38,7 @@ node index.js
 Enter project testing information here.
 
 ## Questions
-For questions about this project, please see my GitHub at 
-[arand013](https://github.com/arand013), or reach out by email at 
-alexanderaranda@ymail.com
+For questions about this project, please see
+My GitHub at: [arand013](https://github.com/arand013)
+or feel free to 
+Reach out by email at: alexanderaranda@ymail.com
