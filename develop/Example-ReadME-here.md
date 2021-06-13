@@ -23,10 +23,10 @@ Run this by typing "node index.js"
 Enter project contribution information here.
 
 ## Tests
-Enter project contribution information here.
+Enter project testing information here.
 
 ## License
-This project is convered under the MIT License.
+This project is covered under the MIT License.
 
 ## Questions
 For questions about this project, please see my GitHub at [arand013](https://github.com/arand013), or reach out by email at alexanderaranda@ymail.com.
