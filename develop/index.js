@@ -149,4 +149,11 @@ function createREADMEFile(input) {
     completeREADME.push(readmeContribution);
 
 
-   
+    //Adding Tests
+    if (input.testing == '') {
+        readmeTest = `\n${testingHead}\n Enter project testing information here.`;
+    } else {
+        readmeTest = `\n${testingHead}\n${input.testing}`;
+    }
+    completeREADME.push(readmeTest);
+
