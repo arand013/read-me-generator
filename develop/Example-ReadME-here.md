@@ -11,9 +11,9 @@ This is a GamePLAN 2 B ULTRA SUCCCEFUL!!!
 * [Questions](#questions)
 
 ## Installation
-1. STEP 1: LIVE
-2. STEP 2: FOCUS
-3. STEP 3: STAY IN PRESENT
+1. LIVE
+2. FOCUS
+3. STAY IN PRESENT
 4. 
 
 ## Usage
