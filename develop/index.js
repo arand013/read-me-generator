@@ -131,4 +131,13 @@ function createREADMEFile(input) {
     }
 
 
-   
+    //Adding Usage
+    if (input.usage == '') {
+        readmeUsage = `\n${usageHead}\n Enter project usage here.`;
+    } else {
+        readmeUsage = `\n${usageHead}\n${input.usage}`;
+    }
+    completeREADME.push(readmeUsage);
+
+
+    
