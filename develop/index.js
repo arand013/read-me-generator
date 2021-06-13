@@ -168,3 +168,17 @@ function createREADMEFile(input) {
     completeREADME.push(readmeQuestions);
 
 
+    // Function call to initialize app
+    const README = completeREADME.join('\n');
+
+
+    // TODO: Create a function to generate markdown for README
+    fs.writeFile("./Example-ReadME-here.md", README, (err) => {
+        if (err) {
+            throw err;
+        } else {
+            console.log("README file successfully created!");
+        }
+    });
+};
+
