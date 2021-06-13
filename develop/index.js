@@ -157,3 +157,10 @@ function createREADMEFile(input) {
     }
     completeREADME.push(readmeTest);
 
+
+    //License info
+    readmeLicence = `\n${licenseHead}\nThis project is convered under the ${input.license}.`;
+    completeREADME.push(readmeLicence);
+
+
+   
