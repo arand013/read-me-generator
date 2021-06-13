@@ -140,4 +140,13 @@ function createREADMEFile(input) {
     completeREADME.push(readmeUsage);
 
 
-    
+    //Adding Contributing
+    if (input.contribution == '') {
+        readmeContribution = `\n${contributionHead}\n Enter project contriburtion information here.`;
+    } else {
+        readmeContribution = `\n${contributionHead}\n${input.contribution}`;
+    }
+    completeREADME.push(readmeContribution);
+
+
+   
