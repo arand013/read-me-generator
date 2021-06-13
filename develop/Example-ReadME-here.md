@@ -20,10 +20,10 @@ This is a GamePLAN 2 B ULTRA SUCCCEFUL!!!
 Run this by typing "node index.js" 
 
 ## Contribution
-Enter project contriburtion information here.
+Enter project contribution information here.
 
 ## Tests
-Enter project contriburtion information here.
+Enter project contribution information here.
 
 ## License
 This project is convered under the MIT License.
