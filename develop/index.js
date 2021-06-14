@@ -164,7 +164,7 @@ function GenerateReadMe(input) {
 
 
     //Questions section with github link
-    Questions = `\n${questionsHead}\nFor questions about this project, please see my GitHub at [${input.github}](https://github.com/${input.github}), or reach out by email at ${input.email}.`;
+    Questions = `\n${questionsHead}\nFor questions about this project, please see <br> My GitHub at: [${input.github}](https://github.com/${input.github})<br><br> Reach out by email at ${input.email}.`;
     fullReadME.push(Questions);
 
 
