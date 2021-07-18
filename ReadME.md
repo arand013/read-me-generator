@@ -1,5 +1,4 @@
 # read-me-generator 
-![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
 ## Description
 This is a back-end node index.js file that is designed to generate Professional a Read-Me.md file.
 After a successful follow through of a small amount of steps, questions and processes are responded to. 
@@ -57,3 +56,4 @@ For questions about this project, please see <br>
 My GitHub at: [arand013](https://github.com/arand013) <br>
 <br>
 Reach out by email at: alexanderaranda@ymail.com
+![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
